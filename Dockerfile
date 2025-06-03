@@ -21,6 +21,7 @@ RUN apt update && apt install -y \
     tcpdump \
     iputils-ping \
     isc-dhcp-client \
+    irpas \
  && apt clean && rm -rf /var/lib/apt/lists/*
 
 # Entry point
