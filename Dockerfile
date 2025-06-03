@@ -15,6 +15,12 @@ RUN apt update && apt install -y \
     cisco-torch \
     cisco-global-exploiter \
     crackmapexec \
+    iproute2 \
+    net-tools \
+    dnsutils \
+    tcpdump \
+    iputils-ping \
+    isc-dhcp-client \
  && apt clean && rm -rf /var/lib/apt/lists/*
 
 # Entry point
